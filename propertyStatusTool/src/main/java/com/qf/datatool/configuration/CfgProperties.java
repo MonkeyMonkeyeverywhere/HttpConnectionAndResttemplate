@@ -5,15 +5,15 @@ import org.springframework.stereotype.Component;
 
 @Component
 public class CfgProperties {
-    @Value("${qiaofang.updatePublishStatusUrl}")
+    @Value("${updatePublishStatusUrl}")
     private String updatePublishStatusUrl;
-    @Value("${qiaofang.shExecuteOnlineUrl}")
+    @Value("${shExecuteOnlineUrl}")
     private String shExecuteOnlineUrl;
-    @Value("${qiaofang.gzExecuteOnlineUrl}")
+    @Value("${gzExecuteOnlineUrl}")
     private String gzExecuteOnlineUrl;
-    @Value("${qiaofang.appid}")
+    @Value("${appid}")
     private String appid;
-    @Value("${qiaofang.appkey}")
+    @Value("${appkey}")
     private String appkey;
 
     public String getAppid() {
